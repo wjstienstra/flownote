@@ -13,10 +13,8 @@ end
 gem 'sass-rails', '4.0.3'
 # Use bootstrap-sass for style
 gem 'bootstrap-sass', '3.3.1'
-
 # Use font awesome for now
 gem 'font-awesome-sass', '4.2.0'
-
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
@@ -33,6 +31,8 @@ gem 'jbuilder', '2.0'
 gem 'sdoc', '0.4.0',          group: :doc
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
+# Use devise 
+gem 'devise', '3.4.1'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '3.1.7'
 # Use unicorn as the app server
