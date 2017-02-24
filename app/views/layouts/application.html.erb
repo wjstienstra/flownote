@@ -7,10 +7,9 @@
     <%= javascript_include_tag 'application' %>
     <%= tag :meta, :name => "stripe-key", :content => STRIPE_PUBLIC_KEY %>
     <%= csrf_meta_tags %>
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Oswald" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster|Raleway|Oswald" />
   </head>
+  
   <body>
     <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
       <div class='container'>
@@ -22,10 +21,10 @@
             <span class="icon-bar"></span>
           </button>
           <%= link_to root_path, class: 'navbar-brand' do %>
-            <i class="fa fa-users"></i>
             <span class="lobster">flownote</span>
           <% end %>
         </div>
+        
         <div class="collapse navbar-collapse" id="main-nav-collapse">
           <div class="nav navbar-nav navbar-right">
             <% if user_signed_in? %>
@@ -45,7 +44,8 @@
         </div><!-- /.navbar-collapse -->
       </div>
     </nav>
-    <div class="container">
+    
+    <div class="container-fluid">
       <% flash.each do |key, value| %>
         <%= content_tag :div, value, class: "alert alert-#{key}" %>
       <% end %>
