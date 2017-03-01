@@ -2,3 +2,46 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.alert-notice {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+
+
+.jumbotron {
+    font-family: 'Raleway medium', sans-serif;
+    background-color: #A4D555; /*flownote green*/
+    color: #FFFFFF; /*white*/
+    height: 100vh;
+    padding-top: 40vh;
+}
+
+.jumbotron .btn-primary {
+    margin: 30px;
+    color: #A4D555;
+    border-color: #A4D555;
+    background-color: #282828;
+    hover { background-color: #A4D555; color: white; }
+}
+
+.lobster {
+    font-family: Lobster, "Brush Script MT", Script;
+}
+
+.well {
+  background-color: #FFFFFF;
+}
+
+.section-info{
+  background-color: #FFFFFF;
+  
+  
+}

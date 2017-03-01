@@ -14,4 +14,25 @@
  *= require_self
  */
 
+.navbar-default .navbar-brand {
+    font-size: 30px;
+}
 
+.navar-default .navbar-nav > li > a {
+    color: #a4d555;
+}
+
+.navbar-default {
+    color: #282828;
+    background-color: #a4d555;
+    border: 0;
+    font-family: Raleway, sans-serif;
+}
+
+.navbar-default > li > a:hover {
+     color: #a4d555;   
+}
+
+.container-fluid {
+    padding: 0;
+}
