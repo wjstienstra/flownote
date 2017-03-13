@@ -24,16 +24,21 @@ body {
     padding-top: 40vh;
 }
 
-.jumbotron .btn-primary {
+.btn-rusty {
     margin: 30px;
-    color: #A4D555;
-    border-color: #A4D555;
-    background-color: #282828;
-    hover { background-color: #A4D555; color: white; }
+    color: #FFFFFF;
+    border-color: #e44424;
+    background-color: #e44424; 
+}
+
+.btn-rusty:hover, .btn-rusty:focus, .btn-rusty:active {
+  background-color: #A4311A;
+  border-color: #A4311A;
+  color: #FFFFFF;
 }
 
 .lobster {
-    font-family: Lobster, "Brush Script MT", Script;
+    font-family: Lobster, "Brush Script MT", "Script";
 }
 
 .well {
